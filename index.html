@@ -38,7 +38,7 @@
     var offsetY = $("#loveHeart").height() / 2 - 55;
     var displayMode = 1;
     var together = new Date();
-    together.setFullYear(2016, 2, 16);
+    together.setFullYear(2016, 1, 16); <!--奇葩的js, 实际时间是2016.2.16 -->
     together.setHours(21);
     together.setMinutes(50);
     together.setSeconds(0);
@@ -48,7 +48,6 @@
       displayMode *= -1;
       timeElapse(together, displayMode);
     });
-    
     if (!document.createElement('canvas').getContext) {
       var msg = document.createElement("div");
       msg.id = "errorMsg";
