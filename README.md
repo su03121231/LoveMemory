@@ -2,4 +2,4 @@
 
 -------------------------------------
 
->This project refers to [hackerzhou][1]'s Project. And I'm sorry for my infringement.
+>This project refers to **hackerzhou**'s Project. And I'm sorry for my infringement.
