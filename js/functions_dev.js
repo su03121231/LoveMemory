@@ -105,6 +105,9 @@ function timeElapse(date, mode){
 		var years = current.getFullYear() - date.getFullYear();
 		var months = current.getMonth() - date.getMonth();
 		var days = current.getDate() - date.getDate();
+		if (days > 0) {
+			days -= 1;
+		}
 	} else {
 		var days = Math.floor(seconds / (3600 * 24));
 	}
